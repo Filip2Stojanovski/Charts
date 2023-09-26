@@ -107,7 +107,7 @@ class LineChartTimeViewController: DemoBaseViewController {
         set1.lineWidth = 1.5
         set1.drawCirclesEnabled = false
         set1.drawValuesEnabled = false
-        set1.fillAlpha = 0.26
+        set1.fillAlpha = 1
         set1.fillColor = UIColor(red: 51/255, green: 181/255, blue: 229/255, alpha: 1)
         set1.highlightColor = UIColor(red: 244/255, green: 117/255, blue: 117/255, alpha: 1)
         set1.drawCircleHoleEnabled = false

@@ -39,7 +39,7 @@ open class LineRadarChartDataSet: LineScatterCandleRadarChartDataSet, LineRadarC
     
     /// The alpha value that is used for filling the line surface,
     /// **default**: 0.33
-    open var fillAlpha = CGFloat(0.33)
+    open var fillAlpha = CGFloat(1)
     
     private var _lineWidth = CGFloat(1.0)
     

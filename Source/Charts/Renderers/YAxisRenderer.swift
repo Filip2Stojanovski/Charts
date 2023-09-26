@@ -157,7 +157,8 @@ open class YAxisRenderer: NSObject, AxisRenderer
             
             context.setShouldAntialias(axis.gridAntialiasEnabled)
             context.setStrokeColor(axis.gridColor.cgColor)
-            context.setLineWidth(axis.gridLineWidth)
+            // dont show Y grid lines
+            context.setLineWidth(0)
             context.setLineCap(axis.gridLineCap)
             
             if axis.gridLineDashLengths != nil

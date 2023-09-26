@@ -55,14 +55,14 @@ class StackedBarChartViewController: DemoBaseViewController {
         chartView.drawValueAboveBarEnabled = false
         chartView.highlightFullBarEnabled = false
         
-        let leftAxis = chartView.leftAxis
-        leftAxis.valueFormatter = DefaultAxisValueFormatter(formatter: formatter)
-        leftAxis.axisMinimum = 0
+        let rightAxis = chartView.rightAxis
+        rightAxis.valueFormatter = DefaultAxisValueFormatter(formatter: formatter)
+        rightAxis.axisMinimum = 0
         
-        chartView.rightAxis.enabled = false
+        chartView.leftAxis.enabled = false
         
         let xAxis = chartView.xAxis
-        xAxis.labelPosition = .top
+        xAxis.labelPosition = .bottom
         
         let l = chartView.legend
         l.horizontalAlignment = .right
