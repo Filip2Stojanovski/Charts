@@ -160,7 +160,7 @@
         [set1 setCircleColor:UIColor.whiteColor];
         set1.lineWidth = 2.0;
         set1.circleRadius = 3.0;
-        set1.fillAlpha = 65/255.0;
+        set1.fillAlpha = 1;
         set1.fillColor = [UIColor colorWithRed:51/255.f green:181/255.f blue:229/255.f alpha:1.f];
         set1.highlightColor = [UIColor colorWithRed:244/255.f green:117/255.f blue:117/255.f alpha:1.f];
         set1.drawCircleHoleEnabled = NO;
@@ -171,7 +171,7 @@
         [set2 setCircleColor:UIColor.whiteColor];
         set2.lineWidth = 2.0;
         set2.circleRadius = 3.0;
-        set2.fillAlpha = 65/255.0;
+        set2.fillAlpha = 1;
         set2.fillColor = UIColor.redColor;
         set2.highlightColor = [UIColor colorWithRed:244/255.f green:117/255.f blue:117/255.f alpha:1.f];
         set2.drawCircleHoleEnabled = NO;
@@ -182,7 +182,7 @@
         [set3 setCircleColor:UIColor.whiteColor];
         set3.lineWidth = 2.0;
         set3.circleRadius = 3.0;
-        set3.fillAlpha = 65/255.0;
+        set3.fillAlpha = 1;
         set3.fillColor = [UIColor.yellowColor colorWithAlphaComponent:200/255.f];
         set3.highlightColor = [UIColor colorWithRed:244/255.f green:117/255.f blue:117/255.f alpha:1.f];
         set3.drawCircleHoleEnabled = NO;

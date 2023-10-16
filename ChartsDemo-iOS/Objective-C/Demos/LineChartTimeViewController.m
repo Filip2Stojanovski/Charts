@@ -138,7 +138,7 @@
         set1.lineWidth = 1.5;
         set1.drawCirclesEnabled = NO;
         set1.drawValuesEnabled = NO;
-        set1.fillAlpha = 0.26;
+        set1.fillAlpha = 1;
         set1.fillColor = [UIColor colorWithRed:51/255.0 green:181/255.0 blue:229/255.0 alpha:1.0];
         set1.highlightColor = [UIColor colorWithRed:224/255.0 green:117/255.0 blue:117/255.0 alpha:1.0];
         set1.drawCircleHoleEnabled = NO;

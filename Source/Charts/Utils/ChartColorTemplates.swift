@@ -61,9 +61,9 @@ open class ChartColorTemplates: NSObject
     @objc open class func vordiplom () -> [NSUIColor]
     {
         return [
-            NSUIColor(red: 192/255.0, green: 255/255.0, blue: 140/255.0, alpha: 1.0),
-            NSUIColor(red: 255/255.0, green: 247/255.0, blue: 140/255.0, alpha: 1.0),
-            NSUIColor(red: 255/255.0, green: 208/255.0, blue: 140/255.0, alpha: 1.0),
+            NSUIColor(red: 255/255.0, green: 239/255.0, blue: 179/255.0, alpha: 1.0),
+            NSUIColor(red: 2/255.0, green: 122/255.0, blue: 255/255.0, alpha: 1.0),
+            NSUIColor(red: 157/255.0, green: 167/255.0, blue: 186/255.0, alpha: 1.0),
             NSUIColor(red: 140/255.0, green: 234/255.0, blue: 255/255.0, alpha: 1.0),
             NSUIColor(red: 255/255.0, green: 140/255.0, blue: 157/255.0, alpha: 1.0)
         ]

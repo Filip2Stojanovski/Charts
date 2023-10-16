@@ -68,16 +68,16 @@ class LineChart1ViewController: DemoBaseViewController {
         ll2.labelPosition = .rightBottom
         ll2.valueFont = .systemFont(ofSize: 10)
 
-        let leftAxis = chartView.leftAxis
-        leftAxis.removeAllLimitLines()
-        leftAxis.addLimitLine(ll1)
-        leftAxis.addLimitLine(ll2)
-        leftAxis.axisMaximum = 200
-        leftAxis.axisMinimum = -50
-        leftAxis.gridLineDashLengths = [5, 5]
-        leftAxis.drawLimitLinesBehindDataEnabled = true
+        let rightAxis = chartView.rightAxis
+        rightAxis.removeAllLimitLines()
+        //rightAxis.addLimitLine(ll1)
+        //rightAxis.addLimitLine(ll2)
+        rightAxis.axisMaximum = 200
+        rightAxis.axisMinimum = -50
+        rightAxis.gridLineDashLengths = [5, 5]
+        rightAxis.drawLimitLinesBehindDataEnabled = true
 
-        chartView.rightAxis.enabled = false
+        chartView.leftAxis.enabled = false
 
         //[_chartView.viewPortHandler setMaximumScaleY: 2.f];
         //[_chartView.viewPortHandler setMaximumScaleX: 2.f];
@@ -120,7 +120,7 @@ class LineChart1ViewController: DemoBaseViewController {
 
         let value = ChartDataEntry(x: Double(3), y: 3)
         set1.addEntryOrdered(value)
-        let gradientColors = [ChartColorTemplates.colorFromString("#00ff0000").cgColor,
+        let gradientColors = [ChartColorTemplates.colorFromString("#ffff0000").cgColor,
                               ChartColorTemplates.colorFromString("#ffff0000").cgColor]
         let gradient = CGGradient(colorsSpace: nil, colors: gradientColors as CFArray, locations: nil)!
 

@@ -44,7 +44,7 @@ open class XAxis: AxisBase
     @objc open var avoidFirstLastClippingEnabled = false
     
     /// the position of the x-labels relative to the chart
-    @objc open var labelPosition = LabelPosition.top
+    @objc open var labelPosition = LabelPosition.bottom
     
     /// if set to true, word wrapping the labels will be enabled.
     /// word wrapping is done using `(value width * labelRotatedWidth)`

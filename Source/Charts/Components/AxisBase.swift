@@ -32,7 +32,7 @@ open class AxisBase: ComponentBase
     /// Custom formatter that is used instead of the auto-formatter if set
     private lazy var _axisValueFormatter: AxisValueFormatter = DefaultAxisValueFormatter(decimals: decimals)
     
-    @objc open var labelFont = NSUIFont.systemFont(ofSize: 10.0)
+    @objc open var labelFont = NSUIFont.systemFont(ofSize: 12.0)
     @objc open var labelTextColor = NSUIColor.labelOrBlack
     
     @objc open var axisLineColor = NSUIColor.gray
@@ -137,7 +137,7 @@ open class AxisBase: ComponentBase
     }
     
     /// if true, the set number of y-labels will be forced
-    @objc open var forceLabelsEnabled = false
+    @objc open var forceLabelsEnabled = true
     
     @objc open func getLongestLabel() -> String
     {
